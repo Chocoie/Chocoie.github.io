@@ -5,11 +5,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.left_side{
-    
+.header{
+    text-align: center;
 }
 
+div.flexContainer{
+    display: flex;
+    flex-direction: row;
+}
 
+#leftSide{
+    flex: 2;
+}
 
 .trevi_pic{
     width: 200px;
@@ -17,18 +24,47 @@
     border-radius: 50%;
     object-fit: cover;
     position: relative;
-    top: 50px;
-    left: 125px;
-    right: 200px;
 }
 
-.right_side{
+#rightSide, #nav{
     background: #728a8d;
     color: white;
-    position: fixed;
-    left: 200px;
+}
+
+#rightSide{
+    
+}
+
+#leftSide{
+    background-color: lightgray;
+    width: 500px;
+}
+
+#topNav{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#topNav li a{
+    display:block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#topNav li a:hover{
+    background-color: beige;
+    color:black;
 }
 
 .main_text{
     background: #abc2ae;
+}
+
+@media screen and (max-width:600px) {
+  div.flexContainer{
+    flex-direction: column;
+  }
 }
