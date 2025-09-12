@@ -7,8 +7,10 @@
 
 .header{
     text-align: center;
+    background: lightgray;
 }
 
+/* got from w3schools */
 div.flexContainer{
     display: flex;
     flex-direction: row;
@@ -36,7 +38,7 @@ div.flexContainer{
 }
 
 #leftSide{
-    background-color: lightgray;
+    background-color: white;
     width: 500px;
 }
 
@@ -61,8 +63,17 @@ div.flexContainer{
 
 .main_text{
     background: #abc2ae;
+    text-align: center;
+    padding: 20%;
+    font-size: 25px;
 }
 
+.footer{
+    background: lightgrey;
+    color: black;
+}
+
+/* got from w3schools */
 @media screen and (max-width:600px) {
   div.flexContainer{
     flex-direction: column;
