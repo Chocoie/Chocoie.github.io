@@ -7,7 +7,10 @@
 
 .header{
     text-align: center;
-    background: lightgray;
+    background: white;
+    padding: 25px;
+    font-size: 50px;
+    color:black;
 }
 
 /* got from w3schools */
@@ -16,30 +19,9 @@ div.flexContainer{
     flex-direction: row;
 }
 
-#leftSide{
-    flex: 2;
-}
-
-.trevi_pic{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    position: relative;
-}
-
-#rightSide, #nav{
+#nav{
     background: #728a8d;
     color: white;
-}
-
-#rightSide{
-    
-}
-
-#leftSide{
-    background-color: white;
-    width: 500px;
 }
 
 #topNav{
@@ -61,16 +43,59 @@ div.flexContainer{
     color:black;
 }
 
+.trevi_pic{
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+}
+
+#leftSide{
+    background-color: #e4e4e4;
+    width: 500px;
+    padding: 40px;
+    color: black;
+}
+
+h4{
+    padding-top: 15px;
+    padding-bottom: 8px;
+    font-size: 18px;
+}
+
+#contactList{
+    list-style-type: none;
+}
+
+.contactImg{
+    position: relative;
+    width: 20%;
+    height: 20%;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+#contactList li{
+    padding: 5px;
+    font-size: 15px;
+    position: relative;
+}
+
 .main_text{
     background: #abc2ae;
-    text-align: center;
+    color: white;
+    text-align: justify;
     padding: 20%;
     font-size: 25px;
 }
 
 .footer{
-    background: lightgrey;
+    background: white;
     color: black;
+    text-align: center;
+    padding: 10px;
 }
 
 /* got from w3schools */
