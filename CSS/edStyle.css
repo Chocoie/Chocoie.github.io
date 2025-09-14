@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -38,7 +40,8 @@ div.flexContainer{
     text-decoration: none;
 }
 
-#topNav li a:hover{
+#topNav li a:hover,
+#topNav li a.active{
     background-color: beige;
     color:black;
 }
@@ -110,20 +113,32 @@ h4{
     background: #abc2ae;
     color: white;
     text-align: justify;
-    padding: 20%;
+    padding: 10% 20%;
     font-size: 25px;
+    width: 100vw;
 }
 
-#ucfPic{
+#gradIcon{
     position: relative;
-    width: 20%;
-    height: 20%;
+    width: 10%;
+    height: 10%;
     vertical-align: middle;
     padding-right: 10px;
+    transition: width 1s, height 1s;
+}
+
+#gradIcon:hover{
+    width: 12%;
+    height: 12%;
 }
 
 .edList{
     list-style-type: none;
+    font-size: 75%;
+}
+
+#school{
+    padding-left: 10%;
 }
 
 .footer{

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -38,7 +40,8 @@ div.flexContainer{
     text-decoration: none;
 }
 
-#topNav li a:hover{
+#topNav li a:hover,
+#topNav li a.active{
     background-color: beige;
     color:black;
 }
@@ -82,7 +85,7 @@ div.flexContainer{
     color: black;
 }
 
-h4{
+h4.contactInfo{
     padding-top: 15px;
     padding-bottom: 8px;
     font-size: 18px;
@@ -110,8 +113,16 @@ h4{
     background: #abc2ae;
     color: white;
     text-align: justify;
-    padding: 20%;
+    padding: 10% 15% 15% 15%;
     font-size: 25px;
+}
+.main_text p{
+    font-size: 75%;
+}
+
+.main_text h1 span{
+    color: black;
+    text-emphasis: bold;
 }
 
 .footer{
