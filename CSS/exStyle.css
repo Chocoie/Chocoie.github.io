@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    text-align: center;
+    background: white;
+    padding: 25px;
+    font-size: 50px;
+    color:black;
+}
+
+/* got from w3schools */
+div.flexContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+#nav{
+    background: #728a8d;
+    color: white;
+}
+
+#topNav{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#topNav li a{
+    display:block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#topNav li a:hover{
+    background-color: beige;
+    color:black;
+}
+
+.dropdown{
+    list-style-type: none;
+    width: 15%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+#topNav li ul.dropdown li{
+    display: block;
+    position: relative;
+}
+
+.dropdown li a:hover{
+    background: beige;
+}
+
+#topNav li:hover ul.dropdown{
+    display: block;
+    background: #728a8d;
+    text-align: center;
+}
+
+.trevi_pic{
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+}
+
+#leftSide{
+    background-color: #e4e4e4;
+    width: 500px;
+    padding: 40px;
+    color: black;
+}
+
+h4{
+    padding-top: 15px;
+    padding-bottom: 8px;
+    font-size: 18px;
+}
+
+#contactList{
+    list-style-type: none;
+}
+
+.contactImg{
+    position: relative;
+    width: 20%;
+    height: 20%;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+#contactList li{
+    padding: 5px;
+    font-size: 15px;
+    position: relative;
+}
+
+.main_text{
+    background: #abc2ae;
+    color: white;
+    text-align: justify;
+    padding: 20%;
+    font-size: 25px;
+}
+
+.footer{
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+/* got from w3schools */
+@media screen and (max-width:600px) {
+  div.flexContainer{
+    flex-direction: column;
+  }
+}

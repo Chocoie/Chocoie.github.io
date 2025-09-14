@@ -43,6 +43,29 @@ div.flexContainer{
     color:black;
 }
 
+.dropdown{
+    list-style-type: none;
+    width: 15%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+#topNav li ul.dropdown li{
+    display: block;
+    position: relative;
+}
+
+.dropdown li a:hover{
+    background: beige;
+}
+
+#topNav li:hover ul.dropdown{
+    display: block;
+    background: #728a8d;
+    text-align: center;
+}
+
 .trevi_pic{
     width: 200px;
     height: 200px;
@@ -89,6 +112,18 @@ h4{
     text-align: justify;
     padding: 20%;
     font-size: 25px;
+}
+
+#ucfPic{
+    position: relative;
+    width: 20%;
+    height: 20%;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.edList{
+    list-style-type: none;
 }
 
 .footer{
