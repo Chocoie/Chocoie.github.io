@@ -80,7 +80,7 @@ div.flexContainer{
 
 #leftSide{
     background-color: #e4e4e4;
-    width: 500px;
+    width: 280px;
     padding: 40px;
     color: black;
 }
@@ -112,9 +112,46 @@ h4{
 .main_text{
     background: #abc2ae;
     color: white;
-    text-align: justify;
-    padding: 20%;
+    padding: 15px;
     font-size: 25px;
+    clear: both;
+    width: 150%;
+}
+
+.main_text ul {
+  margin-left: 15px;
+}
+.main_text ul li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  transition-duration: 0.3s;
+}
+.main_text ul li:hover {
+  color: yellow;
+}
+.main_text ul li:hover .skills-bar .bar {
+  background: yellow;
+  box-shadow: 0 0 0 1px yellow;
+}
+.main_text ul li span {
+  display: block;
+  width: 120px;
+}
+.main_text ul li .skills-bar {
+  background: white;
+  height: 2px;
+  width: calc(100% - 120px);
+  position: relative;
+  border-radius: 2px;
+}
+.main_text ul li .skills-bar .bar {
+  position: absolute;
+  top: -1px;
+  height: 4px;
+  background: orange;
+  box-shadow: 0 0 0 orange;
+  border-radius: 5px;
 }
 
 .footer{
