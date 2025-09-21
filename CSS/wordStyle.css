@@ -34,14 +34,17 @@ div.flexContainer{
 }
 
 #topNav li a{
-    display: flex;
+    display:block;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    width: 100%;
 }
 
-#topNav li a:hover,
+#topNav li a:hover{
+    background-color: beige;
+    color:black;
+}
+
 #topNav li a.active{
     background-color: beige;
     color:black;
@@ -60,8 +63,10 @@ div.flexContainer{
     position: relative;
 }
 
-.dropdown li a:hover{
+.dropdown li a:hover,
+.dropdown li a.active{
     background: beige;
+    color: black;
 }
 
 #topNav li:hover ul.dropdown{
@@ -113,36 +118,49 @@ h4{
 .main_text{
     background: #abc2ae;
     color: white;
-    padding: 10%;
-    padding-right: 15%;
-    width: 112.9%;
-    font-size: 20px;
+    text-align: justify;
+    padding: 20%;
+    padding-top: 10%;
+    padding-left: 10%;
+    font-size: 25px;
 }
 
-#briefCaseIcon{
-    width: 50px;
-    height: 50px;
+#projectIcon{
+    width: 9%;
+    height: 9%;
     vertical-align: middle;
     transition: width 1s, height 1s;
-    margin-right: 15px;
 }
 
-#briefCaseIcon:hover{
-    width: 60px;
-    height: 60px;
-}
-
-.main_text h2{
-    color:White;
-    font-size: 39px;
+#projectIcon:hover{
+    width: 11%;
+    height: 11%;
 }
 
 .main_text section{
-    padding-left: 7.2%;
+    padding-left: 13%;
 }
 
-.main_text h3{
+.main_text h5{
     text-decoration: underline;
+    font-size: 97%;
+}
+
+.main_text p{
+    margin-left: 73px;
+    font-size: 20px;
+}
+
+.main_text section{
+    margin-left: -4%;
+}
+
+.link{
+    color: white;
+}
+
+.link:hover{
+    color: beige;
 }
 
 .footer{
@@ -150,7 +168,6 @@ h4{
     color: black;
     text-align: center;
     padding: 10px;
-    width: 100%;
 }
 
 /* got from w3schools */
