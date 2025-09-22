@@ -181,4 +181,8 @@ h4{
   #rightSide{
     width: 100%;
   }
+
+  #topNav{
+    flex-direction: column;
+  }
 }
