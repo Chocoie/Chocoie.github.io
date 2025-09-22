@@ -80,9 +80,9 @@ div.flexContainer{
 
 #leftSide{
     background-color: #e4e4e4;
-    width: 500px;
+    width: 20%;
     padding: 40px;
-    color: black;
+    min-width: 280px;
 }
 
 h4.contactInfo{
@@ -107,6 +107,10 @@ h4.contactInfo{
     padding: 5px;
     font-size: 15px;
     position: relative;
+}
+
+#rightSide{
+    width: 80%;
 }
 
 .main_text{
@@ -135,6 +139,18 @@ h4.contactInfo{
 /* got from w3schools */
 @media screen and (max-width:600px) {
   div.flexContainer{
+    flex-direction: column;
+  }
+
+   #leftSide{
+    width: 100%;
+  }
+  
+  #rightSide{
+    width: 100%;
+  }
+
+  #topNav{
     flex-direction: column;
   }
 }
