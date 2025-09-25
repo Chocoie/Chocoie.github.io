@@ -19,8 +19,6 @@
 div.flexContainer{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    background: black;
 }
 
 #nav{
@@ -114,6 +112,7 @@ h4{
 
 #rightSide{
     width: 80%;
+    height: 100%;
 }
 
 .main_text{
@@ -183,7 +182,22 @@ h4{
   }
 
   #topNav{
-    display: flex;
     flex-direction: column;
+  }
+
+  #topNav li{
+    width: 100%;
+  }
+
+  .dropdown{
+    position: absolute;
+    width: 50%;
+    display: block;
+    background: #728a8d;
+  }
+
+  .dropdown li a{
+    width: 100%;
+    text-align: left;
   }
 }

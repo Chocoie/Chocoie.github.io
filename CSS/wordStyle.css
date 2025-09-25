@@ -200,4 +200,20 @@ h4{
   #topNav{
     flex-direction: column;
   }
+
+  #topNav li{
+    width: 100%;
+  }
+
+  .dropdown{
+    background: #728a8d;
+    position: absolute;
+    width: 50%;
+    display: block;
+  }
+
+  .dropdown li a{
+    width: 100%;
+    text-align: left;
+  }
 }

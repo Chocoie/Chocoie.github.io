@@ -118,7 +118,6 @@ h4{
 .main_text{
     background: #abc2ae;
     color: white;
-    text-align: justify;
     padding: 10%;
     font-size: 30px;
     width: 100%;
@@ -196,5 +195,21 @@ h4{
 
   #topNav{
     flex-direction: column;
+  }
+
+  #topNav li{
+    width: 100%;
+  }
+
+  .dropdown{
+    position: absolute;
+    width: 50%;
+    display: block;
+    background: #728a8d;
+  }
+
+  .dropdown li a{
+    width: 100%;
+    text-align: left;
   }
 }
