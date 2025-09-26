@@ -85,7 +85,7 @@ div.flexContainer{
     min-width: 280px;
 }
 
-h4.contactInfo{
+h1.contactInfo{
     padding-top: 15px;
     padding-bottom: 8px;
     font-size: 18px;
@@ -116,7 +116,6 @@ h4.contactInfo{
 .main_text{
     background: #abc2ae;
     color: white;
-    text-align: justify;
     padding: 10% 15% 15% 15%;
     font-size: 25px;
 }

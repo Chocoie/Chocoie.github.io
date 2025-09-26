@@ -91,7 +91,7 @@ div.flexContainer{
     min-width: 280px;
 }
 
-h4{
+h1{
     padding-top: 15px;
     padding-bottom: 8px;
     font-size: 18px;
@@ -122,7 +122,6 @@ h4{
 .main_text{
     background: #abc2ae;
     color: white;
-    text-align: justify;
     padding: 10%;
     padding-right: 20%;
     font-size: 25px;
