@@ -22,7 +22,7 @@ div.flexContainer{
 }
 
 #nav{
-    background: #728a8d;
+    background: #50686b;
     color: white;
 }
 
@@ -38,7 +38,6 @@ div.flexContainer{
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-weight: bold;
 }
 
 #topNav li a:hover{
@@ -72,7 +71,7 @@ div.flexContainer{
 
 #topNav li:hover ul.dropdown{
     display: block;
-    background: #728a8d;
+    background: #50686b;
     text-align: center;
 }
 
