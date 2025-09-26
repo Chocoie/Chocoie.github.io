@@ -91,7 +91,7 @@ div.flexContainer{
     min-width: 280px;
 }
 
-h1{
+.contantInfo{
     padding-top: 15px;
     padding-bottom: 8px;
     font-size: 18px;
@@ -120,8 +120,8 @@ h1{
 }
 
 .main_text{
-    background: #abc2ae;
-    color: white;
+    background: #c3d6c5;
+    color: black;
     padding: 10%;
     padding-right: 20%;
     font-size: 25px;
@@ -161,7 +161,7 @@ h1{
 }
 
 .main_text a{
-    color: white;
+    color: black;
     margin-left: 10.5%;
     font-size: 20px;
 }
