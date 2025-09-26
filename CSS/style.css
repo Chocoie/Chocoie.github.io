@@ -159,14 +159,6 @@ h4.contactInfo{
   }
 
   .dropdown{
-    position: absolute;
-    width: 50%;
-    display: block;
-    background: #728a8d;
-  }
-
-  .dropdown li a{
-    width: 100%;
-    text-align: left;
+    width: 40%;
   }
 }

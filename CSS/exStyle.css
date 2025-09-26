@@ -70,6 +70,11 @@ div.flexContainer{
     text-align: center;
 }
 
+.dropdown li a{
+    justify-content: center;
+    text-align: center;
+}
+
 .trevi_pic{
     width: 200px;
     height: 200px;
@@ -190,14 +195,7 @@ h4{
   }
 
   .dropdown{
-    position: absolute;
-    width: 50%;
-    display: block;
-    background: #728a8d;
-  }
-
-  .dropdown li a{
-    width: 100%;
-    text-align: left;
+    width: 40%; 
+    text-align: center;
   }
 }

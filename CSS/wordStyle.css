@@ -206,14 +206,6 @@ h4{
   }
 
   .dropdown{
-    background: #728a8d;
-    position: absolute;
-    width: 50%;
-    display: block;
-  }
-
-  .dropdown li a{
-    width: 100%;
-    text-align: left;
+    width: 40%;
   }
 }
