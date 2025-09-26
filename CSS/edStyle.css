@@ -129,8 +129,9 @@ h1{
     display: table;
 }
 
-.main_text h3{
+.main_text h2{
     margin-bottom: 10px;
+    font-size: 115%;
 }
 
 .main_text ul{
